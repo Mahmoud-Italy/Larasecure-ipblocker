@@ -18,13 +18,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaraSecure\\IPBlocker\\IPBlockerServiceProvider"
+                "Larasecure\\IPBlocker\\IPBlockerServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "LaraSecure\\IPBlocker\\": "src/"
+            "Larasecure\\IPBlocker\\": "src/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraSecure\IPBlocker;
+namespace Larasecure\IPBlocker;
 
 class IPBlocker
 {

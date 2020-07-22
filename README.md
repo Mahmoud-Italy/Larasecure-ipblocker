@@ -20,12 +20,31 @@ Add this middlewar in Kernel.php $routeMiddleware to restrict IP Addresses
 <pre>'IPBlocking' => \LaraSecure\IPBlocker\Middlewares\IPBlocking::class</pre>
 
 
-Add IPBlocking middleware toroute group for which you want to restrict access.
+Add IPBlocking middleware to route group for which you want to restrict access.
+<pre>
+  Route::group(['middleware' => 'IPBlocking'], function(){
+    // you routes..
+  });
+</pre>
+<i>Users will be redirect to "403 | Forbidden" page if their IP exist on ipblockers table.</i>
 
-Users will be redirect to "403 | Forbidden" page if their IP exist on ipblockers table.
+or you can injected in RouteServiceProvider.php
+<pre>
+  protected function mapApiRoutes()
+    {
+        Route::prefix('api')
+            ->middleware(['api', 'IPBlocking'])
+            ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
+    }
+</pre>
 
-
-
+example for add middleware to single route
+<pre>
+  Route::get('/', function () {
+    //
+  })->middleware('IPBlocking');
+</pre>
 
 
 # Security
