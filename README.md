@@ -7,7 +7,7 @@ A Laravel Package to increase the security of your websites by preventing access
 However, you can add IP Addresses as many as you want into table called ipblockers which you want to disallow access to your site from spam etc.
 
 # Installation
-<pre>composer require LaraSecure/ip-blocker --dev</pre>
+<pre>composer require larasecure/ip-blocker --dev</pre>
 
 # Then publish the config
 <pre>php artisan vendor:publish --tag=ipblocker</pre>
