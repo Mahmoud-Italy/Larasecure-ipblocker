@@ -15,7 +15,7 @@ However, you can add IP Addresses as many as you want into table called ipblocke
 
 
 # Usage
-Add this middlewar in Kernel.php $routeMiddleware to restrict IP Addresses
+Add this middleware in Kernel.php $routeMiddleware to restrict IP Addresses
 
 <pre>'IPBlocking' => \LaraSecure\IPBlocker\Middlewares\IPBlocking::class</pre>
 
