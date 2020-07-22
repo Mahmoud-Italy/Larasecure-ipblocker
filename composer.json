@@ -1,0 +1,30 @@
+{
+    "name": "LaraSecure/ip-blocker",
+    "description": "Restrict access to the web by preventing IP Addresses",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud.Ahmed",
+            "email": "mahmoud.italy@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0|^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraSecure\\IPBlocker\\IPBlockerServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraSecure\\IPBlocker\\": "src/"
+        }
+    }
+}
