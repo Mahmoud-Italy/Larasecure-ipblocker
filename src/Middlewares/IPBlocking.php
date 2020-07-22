@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace LaraSecure\IPBlocker\Middlewares;
 
 use Closure;
 use App\IPBlocker;

@@ -23,7 +23,7 @@ class IPBlockerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishMiddleware();
+        //$this->publishMiddleware();
         $this->publishMigrations();
         $this->publishModels();
     }
