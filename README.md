@@ -12,9 +12,9 @@ composer require LaraSecure/ip-blocker
 
 
 # Usage
-<h4>Restrict Access</h4>
 Add this middlewar in Kernel.php $routeMiddleware to restrict IP Addresses
-'IPBlocking' => \LaraSecure\IPBlocker\Middlewares\IPBlocking::class,
+
+<pre>'IPBlocking' => \LaraSecure\IPBlocker\Middlewares\IPBlocking::class</pre>
 
 
 Add IPBlocking middleware toroute group for which you want to restrict access.

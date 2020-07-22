@@ -1,5 +1,5 @@
 {
-    "name": "LaraSecure/ip-blocker",
+    "name": "larasecure/ip-blocker",
     "description": "Restrict access to the web by preventing IP Addresses",
     "type": "library",
     "license": "MIT",
