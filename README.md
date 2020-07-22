@@ -26,7 +26,7 @@ Add IPBlocking middleware to route group for which you want to restrict access.
     // you routes..
   });
 </pre>
-<i>Users will be redirect to "403 | Forbidden" page if their IP exist on ipblockers table.</i>
+<b>Users will be redirect to "403 | Forbidden" page if their IP exist on ipblockers table.</b>
 
 or you can injected in RouteServiceProvider.php
 <pre>
@@ -39,7 +39,7 @@ or you can injected in RouteServiceProvider.php
     }
 </pre>
 
-example for add middleware to single route
+or just add middleware to single route
 <pre>
   Route::get('/', function () {
     //
