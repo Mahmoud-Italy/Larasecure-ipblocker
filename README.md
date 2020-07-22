@@ -2,7 +2,6 @@
 A Laravel Package to increase the security of your websites by preventing access for users having blocked IP Addresses.
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Mahmoud-Italy/LaraSecure-IPBlocker/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Mahmoud-Italy/LaraSecure-IPBlocker/?branch=master)
-
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/Mahmoud-Italy/LaraSecure-IPBlocker/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 However, you can add IP Addresses as many as you want into table called ipblockers which you want to disallow access to your site from spam etc.
