@@ -47,10 +47,6 @@ or just add middleware to single route
 <br/>
 <b>Users will be redirect to "403 | Forbidden" page if their IP exist on ipblockers table.</b>
 
-
-# Security
-If you discover any security related issues, please email mahmoud.italy@outlook.com.
-
 # Credits
 
   <ul>
