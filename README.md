@@ -21,8 +21,6 @@ Add this middleware in Kernel.php $routeMiddleware to restrict IP Addresses
 
 <pre>'IPBlocking' => \Larasecure\IPBlocker\Middlewares\IPBlocking::class</pre>
 
-Don't forget to insert IP Address to database ipblockers to restrict access.
-
 Add IPBlocking middleware to route group for which you want to restrict access.
 <pre>
   Route::group(['middleware' => 'IPBlocking'], function(){
@@ -46,7 +44,7 @@ or just add middleware to single route
     //
   })->middleware('IPBlocking');
 </pre>
-
+<br/>
 <b>Users will be redirect to "403 | Forbidden" page if their IP exist on ipblockers table.</b>
 
 
