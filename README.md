@@ -51,7 +51,7 @@ or just add middleware to single route
 
   <ul>
     <li><a href="https://github.com/Mahmoud-Italy">Mahmoud Italy</a></li>
-    <li><a href="https://github.com/Mahmoud-Italy/Larafast-fastApi/graphs/contributors">All Contributors</a></li>
+    <li><a href="https://github.com/Mahmoud-Italy/Larasecure-ipblocker/graphs/contributors">All Contributors</a></li>
   </ul>
 
 # License
