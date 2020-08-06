@@ -1,6 +1,7 @@
 # IP Blocker
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Mahmoud-Italy/LaraSecure-IPBlocker/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Mahmoud-Italy/LaraSecure-IPBlocker/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/Mahmoud-Italy/LaraSecure-IPBlocker/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+<a href="https://packagist.org/packages/larasecure/ip-blocker"><img src="https://poser.pugx.org/larasecure/ip-blocker/d/total.svg" alt="Total Downloads"></a>
 
 ![ib-blocker](ip-blocker.jpg)
 
