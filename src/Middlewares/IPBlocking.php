@@ -5,8 +5,8 @@ namespace Larasecure\IPBlocker\Middlewares;
 use Closure;
 use App\IPBlocker;
 
-class IPBlocking {
-
+class IPBlocking
+{
     /**
      * Handle an incoming request.
      *
@@ -15,7 +15,7 @@ class IPBlocking {
      * @return mixed
      */
     public function handle($request, Closure $next)
-    {        
+    {
         if (IPBlocker::isBlocked()) {
             abort(403);
         }
